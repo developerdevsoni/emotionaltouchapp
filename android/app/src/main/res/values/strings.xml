@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">emotionaltouch</string>
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://emotionaltouch-admin.nyusoft.in/.well-known/assetlinks.json\" }]</string>
+</resources>
