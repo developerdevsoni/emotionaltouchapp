@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, TextInput, TouchableWithoutFeedback, Keyboard, Platform, I18nManager, } from 'react-native';
-import Clipboard from '@react-native-community/clipboard';
+import Clipboard from '@react-native-clipboard/clipboard';
 import styles from './styles';
 import { isAutoFillSupported } from './helpers/device';
 import { codeToArray } from './helpers/codeToArray';

@@ -6,7 +6,7 @@ import {
   AuthStackScreen,
   AppStackScreen,
 } from './navigationStack';
-import SplashScreen from 'react-native-splash-screen';
+// import SplashScreen from 'react-native-splash-screen';
 import FlashMessage, { showMessage } from 'react-native-flash-message';
 import { useDispatch } from 'react-redux';
 import { DataManager } from '../Utils/dataManager';
@@ -44,13 +44,13 @@ React.useEffect(()=>{
     {
       setCurrentStack('app');   
       setTimeout(() => {
-        SplashScreen.hide()
+        // SplashScreen.hide()
         }, 3000);
      }
     else{
       setCurrentStack('auth');   
       setTimeout(() => {
-        SplashScreen.hide()
+        // SplashScreen.hide()
         }, 3000);
      
      }

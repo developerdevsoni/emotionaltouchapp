@@ -1,6 +1,6 @@
 package com.emotionaltouch;
 
-import org.devio.rn.splashscreen.SplashScreen;
+// import org.devio.rn.splashscreen.SplashScreen;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -15,7 +15,7 @@ public class MainActivity extends ReactActivity {
 
    @Override
   protected void onCreate(Bundle savedInstanceState) {
-    SplashScreen.show(this, R.style.SplashScreen_Fullscreen, true);
+    // SplashScreen.show(this, R.style.SplashScreen_Fullscreen, true);
     super.onCreate(null);
      // ATTENTION: This was auto-generated to handle app links.
      Intent appLinkIntent = getIntent();

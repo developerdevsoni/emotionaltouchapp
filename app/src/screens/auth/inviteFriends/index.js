@@ -34,7 +34,7 @@ import { LanguageCard } from '../../../Component/UIComponent/languageCard';
 import { SCREEN_CONSTANT } from '../../../navigation/constant';
 import FastImage from 'react-native-fast-image';
 import { Colors } from '../../../../rsc/theme';
-import Clipboard from '@react-native-community/clipboard';
+import Clipboard from '@react-native-clipboard/clipboard';
 import icons from '../../../../rsc/theme/icons';
 
 export default function InviteFriends({ navigation }) {

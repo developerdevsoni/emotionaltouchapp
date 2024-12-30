@@ -17,7 +17,7 @@ import { AuthContext } from '../../../navigation/context';
 import { useDispatch, useSelector } from 'react-redux';
 import { useIsFocused } from '@react-navigation/native';
 import FastImage from 'react-native-fast-image';
-import Clipboard from '@react-native-community/clipboard';
+import Clipboard from '@react-native-clipboard/clipboard';
 import icons from '../../../../rsc/theme/icons';
 
 export default function InviteFriendListener({ navigation }) {
